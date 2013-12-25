@@ -1,37 +1,37 @@
 authigenic_minerals => nrel_main_ru_idtf:
-[Атлас] ;;
+[Р°РІС‚РѕРіРµРЅРЅС‹Рµ РјРёРЅРµСЂР°Р»С‹] ;;
 authigenic_minerals => nrel_main_en_idtf:
 [Authigenic minerals] ;;
 
 nrel_partition_by_time => nrel_main_en_idtf:
-[разбиение по времени*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РІСЂРµРјРµРЅРё*];;
 
 nrel_partition_by_time<- quasybinary_relation;;
 
 authigenic_minerals <= nrel_partition_by_time:
 {
-syngenetic(* => nrel_main_ru_idtf: [сингенетические];; => nrel_main_en_idtf: [syngenetic];; *);
-diagenetic (* => nrel_main_ru_idtf: [диагенетические];; => nrel_main_en_idtf: [diagenetic];; *);
-epigenetic (* => nrel_main_ru_idtf: [эпигенетические];; => nrel_main_en_idtf: [epigenetic];; *);
-metageneticheskie (* => nrel_main_ru_idtf: [метагенетические];; => nrel_main_en_idtf: [metageneticheskie];; *);
+syngenetic(* => nrel_main_ru_idtf: [СЃРёРЅРіРµРЅРµС‚РёС‡РµСЃРєРёРµ];; => nrel_main_en_idtf: [syngenetic];; *);
+diagenetic (* => nrel_main_ru_idtf: [РґРёР°РіРµРЅРµС‚РёС‡РµСЃРєРёРµ];; => nrel_main_en_idtf: [diagenetic];; *);
+epigenetic (* => nrel_main_ru_idtf: [СЌРїРёРіРµРЅРµС‚РёС‡РµСЃРєРёРµ];; => nrel_main_en_idtf: [epigenetic];; *);
+metageneticheskie (* => nrel_main_ru_idtf: [РјРµС‚Р°РіРµРЅРµС‚РёС‡РµСЃРєРёРµ];; => nrel_main_en_idtf: [metageneticheskie];; *);
 };;
 
 
 nrel_partition_often_hit => nrel_main_en_idtf:
-[разбиение часто встречающиеся*];;
+[СЂР°Р·Р±РёРµРЅРёРµ С‡Р°СЃС‚Рѕ РІСЃС‚СЂРµС‡Р°СЋС‰РёРµСЃСЏ*];;
 
 nrel_partition_often_hit<- quasybinary_relation;;
 
 authigenic_minerals <= nrel_partition_often_hit:
 {
-anhydride(* => nrel_main_ru_idtf: [ангидрид];; => nrel_main_en_idtf: [anhydride];; *);
-barite (* => nrel_main_ru_idtf: [барит];; => nrel_main_en_idtf: [barite];; *);
-calcite (* => nrel_main_ru_idtf: [кальцит];; => nrel_main_en_idtf: [calcite];; *);
-celestite (* => nrel_main_ru_idtf: [целестин];; => nrel_main_en_idtf: [celestite];; *);
-dolomite (* => nrel_main_ru_idtf: [доломит];; => nrel_main_en_idtf: [dolomite];; *);
-glauconite (* => nrel_main_ru_idtf: [глауконит];; => nrel_main_en_idtf: [glauconite];; *);
-hematite (* => nrel_main_ru_idtf: [гематит];; => nrel_main_en_idtf: [hematite];; *);
+anhydride(* => nrel_main_ru_idtf: [Р°РЅРіРёРґСЂРёРґ];; => nrel_main_en_idtf: [anhydride];; *);
+barite (* => nrel_main_ru_idtf: [Р±Р°СЂРёС‚];; => nrel_main_en_idtf: [barite];; *);
+calcite (* => nrel_main_ru_idtf: [РєР°Р»СЊС†РёС‚];; => nrel_main_en_idtf: [calcite];; *);
+celestite (* => nrel_main_ru_idtf: [С†РµР»РµСЃС‚РёРЅ];; => nrel_main_en_idtf: [celestite];; *);
+dolomite (* => nrel_main_ru_idtf: [РґРѕР»РѕРјРёС‚];; => nrel_main_en_idtf: [dolomite];; *);
+glauconite (* => nrel_main_ru_idtf: [РіР»Р°СѓРєРѕРЅРёС‚];; => nrel_main_en_idtf: [glauconite];; *);
+hematite (* => nrel_main_ru_idtf: [РіРµРјР°С‚РёС‚];; => nrel_main_en_idtf: [hematite];; *);
 };;
 
 
-authigenic_minerals  => nrel_defenition: [минералы осадочных горных пород, образовавшихся в процессе седиментации и последующих изменений в осадке (или породе) в месте скопления.];;
+authigenic_minerals  => nrel_defenition: [РјРёРЅРµСЂР°Р»С‹ РѕСЃР°РґРѕС‡РЅС‹С… РіРѕСЂРЅС‹С… РїРѕСЂРѕРґ, РѕР±СЂР°Р·РѕРІР°РІС€РёС…СЃСЏ РІ РїСЂРѕС†РµСЃСЃРµ СЃРµРґРёРјРµРЅС‚Р°С†РёРё Рё РїРѕСЃР»РµРґСѓСЋС‰РёС… РёР·РјРµРЅРµРЅРёР№ РІ РѕСЃР°РґРєРµ (РёР»Рё РїРѕСЂРѕРґРµ) РІ РјРµСЃС‚Рµ СЃРєРѕРїР»РµРЅРёСЏ.];;

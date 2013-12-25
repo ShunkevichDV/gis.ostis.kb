@@ -1,48 +1,48 @@
 bacteria => nrel_main_ru_idtf:
-[Базальтовая магма] ;;
+[Р±Р°СЃС‚РµСЂРёСЏ] ;;
 bacteria => nrel_main_en_idtf:
 [Bacteria] ;;
 
 nrel_partition_by_body_struct => nrel_main_en_idtf:
-[разбиение по строению тела*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ СЃС‚СЂРѕРµРЅРёСЋ С‚РµР»Р°*];;
 
 nrel_partition_by_body_struct<- quasybinary_relation;;
 
 bacteria<= nrel_partition_by_body_struct:
 {
-multicellular(* => nrel_main_ru_idtf: [многоклеточные];; => nrel_main_en_idtf: [multicellular];; *);
-celled (* => nrel_main_ru_idtf: [одноклеточные];; => nrel_main_en_idtf: [celled];; *);
+multicellular(* => nrel_main_ru_idtf: [РјРЅРѕРіРѕРєР»РµС‚РѕС‡РЅС‹Рµ];; => nrel_main_en_idtf: [multicellular];; *);
+celled (* => nrel_main_ru_idtf: [РѕРґРЅРѕРєР»РµС‚РѕС‡РЅС‹Рµ];; => nrel_main_en_idtf: [celled];; *);
 };;
 
 
 nrel_partition_by_form => nrel_main_en_idtf:
-[разбиение по форме тела*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ С„РѕСЂРјРµ С‚РµР»Р°*];;
 
 nrel_partition_by_form<- quasybinary_relation;;
 
-bacteria<=nrel_partition_by_formt:
+bacteria<=nrel_partition_by_form:
 {
-rod(* => nrel_main_ru_idtf: [палочковидные];; => nrel_main_en_idtf: [rod];; *);
-filamentous (* => nrel_main_ru_idtf: [нитевидные];; => nrel_main_en_idtf: [filamentous];; *);
-spherical(* => nrel_main_ru_idtf: [шаровидные];; => nrel_main_en_idtf: [spherical];; *);
-spiral (* => nrel_main_ru_idtf: [спиральные];; => nrel_main_en_idtf: [spiral];; *);
-starlike(* => nrel_main_ru_idtf: [звездообразные];; => nrel_main_en_idtf: [starlike];; *);
-umbellate (* => nrel_main_ru_idtf: [зонтиковидные];; => nrel_main_en_idtf: [umbellate];; *);
-autotrophic (* => nrel_main_ru_idtf: [автотрофные];; => nrel_main_en_idtf: [autotrophic];; *);
-heterotrophic (* => nrel_main_ru_idtf: [гетеротрофные];; => nrel_main_en_idtf: [heterotrophic];; *);;
-};
+rod(* => nrel_main_ru_idtf: [РїР°Р»РѕС‡РєРѕРІРёРґРЅС‹Рµ];; => nrel_main_en_idtf: [rod];; *);
+filamentous (* => nrel_main_ru_idtf: [РЅРёС‚РµРІРёРґРЅС‹Рµ];; => nrel_main_en_idtf: [filamentous];; *);
+spherical(* => nrel_main_ru_idtf: [С€Р°СЂРѕРІРёРґРЅС‹Рµ];; => nrel_main_en_idtf: [spherical];; *);
+spiral (* => nrel_main_ru_idtf: [СЃРїРёСЂР°Р»СЊРЅС‹Рµ];; => nrel_main_en_idtf: [spiral];; *);
+starlike(* => nrel_main_ru_idtf: [Р·РІРµР·РґРѕРѕР±СЂР°Р·РЅС‹Рµ];; => nrel_main_en_idtf: [starlike];; *);
+umbellate (* => nrel_main_ru_idtf: [Р·РѕРЅС‚РёРєРѕРІРёРґРЅС‹Рµ];; => nrel_main_en_idtf: [umbellate];; *);
+autotrophic (* => nrel_main_ru_idtf: [Р°РІС‚РѕС‚СЂРѕС„РЅС‹Рµ];; => nrel_main_en_idtf: [autotrophic];; *);
+heterotrophic (* => nrel_main_ru_idtf: [РіРµС‚РµСЂРѕС‚СЂРѕС„РЅС‹Рµ];; => nrel_main_en_idtf: [heterotrophic];; *);;
+};;
 
 nrel_partition_thing_exchange => nrel_main_en_idtf:
-[разбиение по обмену веществ*];;
+[СЂР°Р·Р±РёРµРЅРёРµ РїРѕ РѕР±РјРµРЅСѓ РІРµС‰РµСЃС‚РІ*];;
 
 nrel_partition_thing_exchange<- quasybinary_relation;;
 
 bacteria<=nrel_partition_thing_exchange:
 {
-seroobrazuyuschie(* => nrel_main_ru_idtf: [серообразующие];; => nrel_main_en_idtf: [seroobrazuyuschie];; *);
-ferro-manganese (* => nrel_main_ru_idtf: [железисто-марганцевые];; => nrel_main_en_idtf: [ferro-manganese];; *);
-nitrogen(* => nrel_main_ru_idtf: [азотные];; => nrel_main_en_idtf: [nitrogen];; *);
-acetate (* => nrel_main_ru_idtf: [ацетатные];; => nrel_main_en_idtf: [acetate];; *);
-};
+seroobrazuyuschie(* => nrel_main_ru_idtf: [СЃРµСЂРѕРѕР±СЂР°Р·СѓСЋС‰РёРµ];; => nrel_main_en_idtf: [seroobrazuyuschie];; *);
+ferro_manganese (* => nrel_main_ru_idtf: [Р¶РµР»РµР·РёСЃС‚Рѕ_РјР°СЂРіР°РЅС†РµРІС‹Рµ];; => nrel_main_en_idtf: [ferro_manganese];; *);
+nitrogen(* => nrel_main_ru_idtf: [Р°Р·РѕС‚РЅС‹Рµ];; => nrel_main_en_idtf: [nitrogen];; *);
+acetate (* => nrel_main_ru_idtf: [Р°С†РµС‚Р°С‚РЅС‹Рµ];; => nrel_main_en_idtf: [acetate];; *);
+};;
 
-bacteria  => nrel_defenition: [царство микроскопических, преимущественно одноклеточных организмов, не имеющих оформленного ядра и размножающихся простым делением. ];;
+bacteria  => nrel_defenition: [С†Р°СЂСЃС‚РІРѕ РјРёРєСЂРѕСЃРєРѕРїРёС‡РµСЃРєРёС…, РїСЂРµРёРјСѓС‰РµСЃС‚РІРµРЅРЅРѕ РѕРґРЅРѕРєР»РµС‚РѕС‡РЅС‹С… РѕСЂРіР°РЅРёР·РјРѕРІ, РЅРµ РёРјРµСЋС‰РёС… РѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ СЏРґСЂР° Рё СЂР°Р·РјРЅРѕР¶Р°СЋС‰РёС…СЃСЏ РїСЂРѕСЃС‚С‹Рј РґРµР»РµРЅРёРµРј. ];;

@@ -1,17 +1,17 @@
 atlas => nrel_main_ru_idtf:
-[Атлас] ;;
+[РђС‚Р»Р°СЃ] ;;
 atlas => nrel_main_en_idtf:
 [Atlas] ;;
 
 nrel_partition => nrel_main_ru_idtf:
-[разбиение*];;
+[СЂР°Р·Р±РёРµРЅРёРµ*];;
 
 nrel_partition<- quasybinary_relation;;
 
 astrobleme <= nrel_partition:
 {
-geographical(* => nrel_main_ru_idtf: [географический];; => nrel_main_en_idtf: geographical];; *);
-astronomical (* => nrel_main_ru_idtf: [астрономический];; => nrel_main_en_idtf: [astronomical];; *);
+geographical(* => nrel_main_ru_idtf: [РіРµРѕРіСЂР°С„РёС‡РµСЃРєРёР№];; => nrel_main_en_idtf:[ geographical];; *);
+astronomical (* => nrel_main_ru_idtf: [Р°СЃС‚СЂРѕРЅРѕРјРёС‡РµСЃРєРёР№];; => nrel_main_en_idtf: [astronomical];; *);
 };;
 
-astenosphere => nrel_defenition: [систематическое собрание карт с пояснительным текстом, изданное в виде тома или набора отдельных листов.];;
+astenosphere => nrel_defenition: [СЃРёСЃС‚РµРјР°С‚РёС‡РµСЃРєРѕРµ СЃРѕР±СЂР°РЅРёРµ РєР°СЂС‚ СЃ РїРѕСЏСЃРЅРёС‚РµР»СЊРЅС‹Рј С‚РµРєСЃС‚РѕРј, РёР·РґР°РЅРЅРѕРµ РІ РІРёРґРµ С‚РѕРјР° РёР»Рё РЅР°Р±РѕСЂР° РѕС‚РґРµР»СЊРЅС‹С… Р»РёСЃС‚РѕРІ.];;
