@@ -1,4 +1,4 @@
-﻿sc_node_not_relation->Granite_gneiss;;
+sc_node_not_relation->Granite_gneiss;;
 Granite_gneiss=>nrel_main_ru_idtf:[Гранито-гнейс];;
 
 Granite_gneiss<-rrel_defenition:Granite_gneiss_def;;
