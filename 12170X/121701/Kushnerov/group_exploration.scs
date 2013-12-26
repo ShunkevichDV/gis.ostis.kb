@@ -1,0 +1,13 @@
+sc_node_not_relation->group_exploration;;
+group_exploration=>nrel_main_ru_idtf:[Группа геологическая];;
+
+group_exploration=>nrel_ru_idtf:[Эратема];;
+
+group_exploration<-rrel_defenition:group_exploration_def;;
+group_exploration_def<=nrel_translation:group_exploration_def_translation;;
+group_exploration_def_translation<-[крупное подразделение Международной (Общей) стратиграфической шкалы, подчинённое эонотеме.](*<-lang_ru;;*);;
+group_exploration_def<=nrel_used_constants:
+{
+International_General_stratigraphic_scale;
+eonotema
+};;
