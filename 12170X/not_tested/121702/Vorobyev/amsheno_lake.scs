@@ -1,0 +1,19 @@
+amsheno_lake => nrel_main_idtf:
+[Амшено озеро] ;;
+amsheno_lake => nrel_main_idtf:
+[Amsheno lake] ;;
+
+amsheno_lake => nrel_altitude: [146];;
+amsheno_lake => nrel_watercourse_type: stable 
+(* 
+
+=> nrel_main_idtf: [постоянный] (* <- lang_ru;; *);; 
+=> nrel_main_idtf: [stable] (* <- lang_en;; *);; 
+*);;
+
+amsheno_lake => nrel_depth: [7,5];;
+amsheno_lake(* 
+=> nrel_main_idtf: [пресная вода] (* <- lang_ru;; *);; 
+=> nrel_main_idtf: [fresh water] (* <- lang_en;; *);; 
+*);;
+amsheno_lake => nrel_square: [0,05];;

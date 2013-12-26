@@ -1,0 +1,20 @@
+glodovo_lake => nrel_main_idtf:
+[Глодово озеро] ;;
+glodovo_lake => nrel_main_idtf:
+[Glodovo lake] ;;
+
+glodovo_lake => nrel_altitude: [146];;
+glodovo_lake => nrel_watercourse_type: stable 
+(* 
+
+=> nrel_main_idtf: [постоянный] (* <- lang_ru;; *);; 
+=> nrel_main_idtf: [stable] (* <- lang_en;; *);; 
+*);;
+
+glodovo_lake => nrel_depth: [6];;
+glodovo_lake => nrel_qualitative_features_of_water: fresh_water
+(* 
+=> nrel_main_idtf: [пресная вода] (* <- lang_ru;; *);; 
+=> nrel_main_idtf: [fresh water] (* <- lang_en;; *);; 
+*);;
+glodovo_lake => nrel_square: [0,35];;

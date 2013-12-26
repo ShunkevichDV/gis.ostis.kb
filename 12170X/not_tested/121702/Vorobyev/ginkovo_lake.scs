@@ -1,0 +1,20 @@
+ginkovo_lake => nrel_main_idtf:
+[Гиньково озеро] ;;
+ginkovo_lake => nrel_main_idtf:
+[Ginkovo lake] ;;
+
+ginkovo_lake => nrel_altitude: [130];;
+ginkovo_lake => nrel_watercourse_type: stable 
+(* 
+
+=> nrel_main_idtf: [постоянный] (* <- lang_ru;; *);; 
+=> nrel_main_idtf: [stable] (* <- lang_en;; *);; 
+*);;
+
+ginkovo_lake => nrel_depth: [43,3];;
+ginkovo_lake => nrel_qualitative_features_of_water: fresh_water
+(* 
+=> nrel_main_idtf: [пресная вода] (* <- lang_ru;; *);; 
+=> nrel_main_idtf: [fresh water] (* <- lang_en;; *);; 
+*);;
+ginkovo_lake => nrel_square: [0,51];;
