@@ -11,7 +11,7 @@ nrel_partition_by_body_struct<- quasybinary_relation;;
 bacteria<= nrel_partition_by_body_struct:
 {
 multicellular(* => nrel_main_ru_idtf: [многоклеточные];; => nrel_main_en_idtf: [multicellular];; *);
-celled (* => nrel_main_ru_idtf: [одноклеточные];; => nrel_main_en_idtf: [celled];; *);
+celled (* => nrel_main_ru_idtf: [одноклеточные];; => nrel_main_en_idtf: [celled];; *)
 };;
 
 
@@ -29,7 +29,7 @@ spiral (* => nrel_main_ru_idtf: [спиральные];; => nrel_main_en_idtf: [
 starlike(* => nrel_main_ru_idtf: [звездообразные];; => nrel_main_en_idtf: [starlike];; *);
 umbellate (* => nrel_main_ru_idtf: [зонтиковидные];; => nrel_main_en_idtf: [umbellate];; *);
 autotrophic (* => nrel_main_ru_idtf: [автотрофные];; => nrel_main_en_idtf: [autotrophic];; *);
-heterotrophic (* => nrel_main_ru_idtf: [гетеротрофные];; => nrel_main_en_idtf: [heterotrophic];; *);;
+heterotrophic (* => nrel_main_ru_idtf: [гетеротрофные];; => nrel_main_en_idtf: [heterotrophic];; *)
 };;
 
 nrel_partition_thing_exchange => nrel_main_en_idtf:
@@ -42,7 +42,7 @@ bacteria<=nrel_partition_thing_exchange:
 seroobrazuyuschie(* => nrel_main_ru_idtf: [серообразующие];; => nrel_main_en_idtf: [seroobrazuyuschie];; *);
 ferro_manganese (* => nrel_main_ru_idtf: [железисто_марганцевые];; => nrel_main_en_idtf: [ferro_manganese];; *);
 nitrogen(* => nrel_main_ru_idtf: [азотные];; => nrel_main_en_idtf: [nitrogen];; *);
-acetate (* => nrel_main_ru_idtf: [ацетатные];; => nrel_main_en_idtf: [acetate];; *);
+acetate (* => nrel_main_ru_idtf: [ацетатные];; => nrel_main_en_idtf: [acetate];; *)
 };;
 
 bacteria  => nrel_defenition: [царство микроскопических, преимущественно одноклеточных организмов, не имеющих оформленного ядра и размножающихся простым делением. ];;
