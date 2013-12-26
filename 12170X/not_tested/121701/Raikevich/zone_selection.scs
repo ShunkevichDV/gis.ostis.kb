@@ -1,4 +1,4 @@
-﻿zone_selection => nrel_main_ru_idtf:
+zone_selection => nrel_main_ru_idtf:
 [Зона географическая] ;;
 zone_selection => nrel_main_en_idtf:
 [zone_selection] ;;
