@@ -35,13 +35,13 @@ nrel_state => nrel_main_en_idtf:
 
 nrel_politic <- sc_node_norole_relation;;
 nrel_politic => nrel_main_ru_idtf:
-[политико-административное значение*] ;;
+[политико_административное значение*] ;;
 nrel_politic => nrel_main_en_idtf:
-[political-administrative value*] ;;
+[political_administrative value*] ;;
 
 kirovo=> nrel_population: [532];;
 kirovo=> nrel_region: [Гомельская область];; 
 kirovo=> nrel_district: [Жлобинский район];;
 kirovo=> nrel_locality: [агрогородок Кирово];;
 kirovo=> nrel_state: [жилой] ;;
-kirovo=> nrel_politic: [не имеет политико-административного значения] ;;
+kirovo=> nrel_politic: [не имеет политико_административного значения] ;;

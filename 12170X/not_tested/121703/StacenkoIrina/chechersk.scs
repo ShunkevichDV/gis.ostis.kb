@@ -41,7 +41,7 @@ nrel_state => nrel_main_en_idtf:
 
 nrel_politic <- sc_node_norole_relation;;
 nrel_politic => nrel_main_ru_idtf:
-[политико-административное значение*] ;;
+[политико_административное значение*] ;;
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
@@ -64,7 +64,7 @@ chechersk=> nrel_district: [Чечерский район];;
 chechersk=> nrel_locality: [город Чечерск];;
 chechersk=> nrel_state: [жилой] ;;
 chechersk=> nrel_politic: [центр района] ;;
-chechersk=> nrel_showplace: [Спасо-Преображенская церковь] ;;
+chechersk=> nrel_showplace: [Спасо_Преображенская церковь] ;;
 chechersk=> nrel_showplace: [Ратуша] ;;
 chechersk=> nrel_showplace: [Городище Замковая гора] ;;
 chechersk=> nrel_native: [Агранов Яков Саулович] ;;

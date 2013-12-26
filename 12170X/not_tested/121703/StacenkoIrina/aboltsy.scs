@@ -36,7 +36,7 @@ nrel_state => nrel_main_en_idtf:
 
 nrel_politic <- sc_node_norole_relation;;
 nrel_politic => nrel_main_ru_idtf:
-[политико-административное значение*] ;;
+[политико_административное значение*] ;;
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
@@ -45,4 +45,4 @@ aboltsy=> nrel_region: [Гомельская область];;
 aboltsy=> nrel_district: [Жлобинский район];;
 aboltsy=> nrel_locality: [деревня Абольцы];;
 aboltsy=> nrel_state: [жилой];;
-aboltsy=> nrel_politic: [не имеет политичко-административного значения];;
+aboltsy=> nrel_politic: [не имеет политико_административного значения];;

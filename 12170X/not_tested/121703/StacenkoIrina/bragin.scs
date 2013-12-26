@@ -23,7 +23,7 @@ nrel_state => nrel_main_en_idtf:
 
 nrel_politic <- sc_node_norole_relation;;
 nrel_politic => nrel_main_ru_idtf:
-[политико-административное значение*] ;;
+[политико_административное значение*] ;;
 nrel_politic => nrel_main_en_idtf:
 [political-administrative value*] ;;
 
@@ -44,4 +44,4 @@ bragin=> nrel_region: [Гомельская область] ;;
 bragin=> nrel_district: [Брагинский район] ;;
 bragin=> nrel_locality: [городской поселок Брагин];;
 bragin=> nrel_state: [жилой] ;;
-bragin=> nrel_politic: [не имеет политичко-административного значения] ;;
+bragin=> nrel_politic: [не имеет политико_административного значения] ;;
