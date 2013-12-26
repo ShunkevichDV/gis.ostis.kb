@@ -29,12 +29,12 @@ nrel_state => nrel_main_en_idtf:
 
 nrel_politic <- sc_node_norole_relation;;
 nrel_politic => nrel_main_ru_idtf:
-[политико-административное значение*] ;;
+[политико_административное значение*] ;;
 nrel_politic => nrel_main_en_idtf:
-[political-administrative value*] ;;
+[political_administrative value*] ;;
 
 mormal=> nrel_region: [Гомельская область];; 
 mormal=> nrel_district: [Жлобинский район];;
 mormal=> nrel_locality: [деревня Мормаль];;
 mormal=> nrel_state: [жилой] ;;
-mormal=> nrel_politic: [не имеет политико-административного значения] ;;
+mormal=> nrel_politic: [не имеет политико_административного значения] ;;

@@ -29,12 +29,12 @@ nrel_state => nrel_main_en_idtf:
 
 nrel_politic <- sc_node_norole_relation;;
 nrel_politic => nrel_main_ru_idtf:
-[политико-административное значение*] ;;
+[политико_административное значение*] ;;
 nrel_politic => nrel_main_en_idtf:
-[political-administrative value*] ;;
+[political_administrative value*] ;;
 
 dorogin=> nrel_region: [Гомельская область];; 
 dorogin=> nrel_district: [Жлобинскйи район];;
 dorogin=> nrel_locality: [деревня Дорогинь];;
 dorogin=> nrel_state: [жилой] ;;
-dorogin=> nrel_politic: [не имеет политико-административного значения] ;;
+dorogin=> nrel_politic: [не имеет политико_административного значения] ;;
