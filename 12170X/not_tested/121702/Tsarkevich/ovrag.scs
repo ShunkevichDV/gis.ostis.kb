@@ -1,0 +1,14 @@
+ovrag => nrel_main_ru_idtf:
+[Овраг] ;;
+ovrag => nrel_main_en_idtf:
+[Ovrag] ;;
+
+ovrag => nrel_defenition:
+[форма рельефа в виде относительно глубоких и крутосклонных незадернованных ложбин, образованных временными водотоками.];;
+
+nrel_kinds_on_the_kind <- quasybinary_relation;;
+ovrag <= nrel_kinds_on_the_kind:
+{
+young_ovrag (* => nrel_main_ru_idtf: [молодой овраг];; => nrel_main_en_idtf: [Younf_ovrag];; *);
+old_ovrag(* => nrel_main_ru_idtf: [зрелый овраг];; => nrel_main_en_idtf: [Old_ovrag];; *)
+};;
