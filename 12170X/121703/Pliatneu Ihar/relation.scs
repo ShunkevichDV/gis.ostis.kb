@@ -1,0 +1,11 @@
+nrel_kinds <- sc_node_norole_relation;;
+nrel_kinds => nrel_main_ru_idtf:
+[Разбиение по видам*] ;;
+nrel_kinds => nrel_main_en_idtf:
+[kinds*] ;;
+
+nrel_form <- sc_node_norole_relation;;
+nrel_form => nrel_main_ru_idtf:
+[Разбиение по форме*] ;;
+nrel_form => nrel_main_en_idtf:
+[form*] ;;
