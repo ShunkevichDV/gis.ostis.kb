@@ -1,0 +1,5 @@
+island => nrel_main_ru_idtf:
+	[Остров] ;;
+island => nrel_main_en_idtf:
+	[island] ;;
+island => nrel_defenition: [участок суши в озере или реке, окруженный водой. ] ;;
