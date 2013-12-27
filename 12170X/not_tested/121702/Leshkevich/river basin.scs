@@ -1,0 +1,5 @@
+river basin => nrel_main_ru_idtf:
+	[бассейн реки] ;;
+river basin => nrel_main_en_idtf:
+	[river basin] ;;
+river basin => nrel_defenition: [ бассейн реки- это территория земной поверхности, с которой все поверхностные и грунтовые воды стекаются в одну реку ] ;;

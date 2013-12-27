@@ -1,0 +1,5 @@
+source => nrel_main_ru_idtf:
+	[Исток] ;;
+source => nrel_main_en_idtf:
+	[source] ;;
+source => nrel_defenition: [место, где водоток берёт своё начало. ] ;;
