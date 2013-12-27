@@ -1,0 +1,18 @@
+limnokaltsit => nrel_main_ru_idtf:
+[Лимнокальцит] ;;
+limnokaltsit => nrel_main_en_idtf:
+[Limnokaltsit] ;;
+
+color <- quasybinary_relation;;
+limnokaltsit <= color:
+{
+light_gray (* => nrel_main_ru_idtf: [светло-серый];; => nrel_main_en_idtf: [light gray];; *)
+};;
+state <- quasybinary_relation;;
+limnokaltsit <= state:
+{
+plastic (* => nrel_main_ru_idtf: [пластичная];; => nrel_main_en_idtf: [plastic];; *);
+loose (* => nrel_main_ru_idtf: [рыхлая];; => nrel_main_en_idtf: [loose];; *)
+};;
+
+limnokaltsit => nrel_defenition: [рассыпчатая горная порода, представляющая собой иловатую, во влажном состоянии несколько пластичную, на воздухе после высыхания рыхлую массу углекислого кальция, мелоподобного вида.];;

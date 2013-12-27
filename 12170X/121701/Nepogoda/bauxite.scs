@@ -1,0 +1,59 @@
+bauxite  => nrel_main_ru_idtf:
+[Бокситы] ;;
+bauxite => nrel_main_en_idtf:
+[Bauxite] ;;
+
+bauxite<= nrel_partition_by_color:
+{
+red(* => nrel_main_ru_idtf: [красный];; => nrel_main_en_idtf: [red];; *);
+fulvous (* => nrel_main_ru_idtf: [бурый];; => nrel_main_en_idtf: [fulvous];; *);
+brown_fulvous(* => nrel_main_ru_idtf: [коричнево-бурый];; => nrel_main_en_idtf: [brown-fulvous];; *);
+yellow(* => nrel_main_ru_idtf: [жёлтый];; => nrel_main_en_idtf: [yellow];; *);
+gray(* => nrel_main_ru_idtf: [серый];; => nrel_main_en_idtf: [gray];; *);
+white(* => nrel_main_ru_idtf: [белый];; => nrel_main_en_idtf: [white];; *)
+};;
+
+nrel_partition_by_density<- quasybinary_relation;;
+nrel_partition_by_density => nrel_main_ru_idtf:
+[разбиение по плотности*];;
+
+bauxite<= nrel_partition_by_density:
+{
+loose (* => nrel_main_ru_idtf: [рыхлый];; => nrel_main_en_idtf: [loose];; *);
+earthy (* => nrel_main_ru_idtf: [землистый];; => nrel_main_en_idtf: [earthy];; *);
+tight(* => nrel_main_ru_idtf: [плотный];; => nrel_main_en_idtf: [tight];; *);
+porous(* => nrel_main_ru_idtf: [пористый];; => nrel_main_en_idtf: [porous];; *);
+clay_like(* => nrel_main_ru_idtf: [глиноподобный];; => nrel_main_en_idtf: [clay-like];; *)
+};;
+
+bauxite<= nrel_partition_by_structure:
+{
+clastic(* => nrel_main_ru_idtf: [обломочная];; => nrel_main_en_idtf: [clastic];; *);
+concretionary (* => nrel_main_ru_idtf: [конкреционная];; => nrel_main_en_idtf: [concretionary];; *)
+};;
+
+nrel_partition_by_mineral_composition<- quasybinary_relation;;
+nrel_partition_by_mineral_composition => nrel_main_ru_idtf:
+[разбиение по минеральному составу*];;
+
+bauxite<= nrel_partition_by_mineral_composition:
+{
+mnogogidrookisnye(* => nrel_main_ru_idtf: [многогидроокисные];; => nrel_main_en_idtf: [mnogogidrookisnye];; *);
+trigidrookisnye (* => nrel_main_ru_idtf: [тригидроокисные];; => nrel_main_en_idtf: [trigidrookisnye];; *);
+mixed (* => nrel_main_ru_idtf: [смешанные];; => nrel_main_en_idtf: [mixed];; *)
+};;
+
+nrel_partition_by_formation_conditions<- quasybinary_relation;;
+nrel_partition_by_formation_conditions => nrel_main_ru_idtf:
+[разбиение по условиям образования*];;
+
+bauxite<= nrel_partition_by_formation_conditions:
+{
+residual(* => nrel_main_ru_idtf: [остаточные];; => nrel_main_en_idtf: [residual];; *);
+redeposited (* => nrel_main_ru_idtf: [переотложенные];; => nrel_main_en_idtf: [redeposited];; *)
+};;
+
+bauxite => nrel_defenition: [ комплексная алюминиевая руда, состоящая из гидроокислов алюминия, окислов и гидроокислов железа и глинистых минералов.  ];;
+
+bauxite => nrel_textual_explanation: 
+[ БОКСИТЫ (франц. bauxite по названию местности Ле-Бо на Ю Франции), комплексная алюминиевая руда, состоящая из гидроокислов алюминия, окислов и гидроокислов железа и глинистых минералов. Основные рудообразующие минералы: диаспор, гиббсит, гётит, гидрогётит, бёмит, каолинит, шамозит, анатаз, сидерит, слюды и др. Из-за разной пористости плотность колеблется (от рыхлой до каменистой) от 1 до 3,2 г/см1. Бывают землистые, рыхлые, плотные, пористые, глинодобные. Структура обломочная (пелитовая, гравелитовая и др.) или конкреционная (бобовая, оолитовая, пизолитовая). Цвет чаше всего красный, бурый, коричневато-бурый, реже жёлтый, серый, белый. По минер, составу выделяют Б. моногидроокисные. тригидроокисные и смешанные; по условиям образования — остаточные (латеритные) и переотложениые (осадочные), образующие обычно пласто- или линзообразные тела. На терр. Беларуси обнаружены в верхних горизонтах докембрия, в корах выветривания некоторых горизонтов палеозоя и как проявление алюминиевой руды в каолинитовой толще раннего карбона в Припятском прогибе. ];;
