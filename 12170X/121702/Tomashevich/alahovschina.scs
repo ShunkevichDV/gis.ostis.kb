@@ -1,0 +1,47 @@
+alahovschina => nrel_main_ru_idtf:
+[Алаховщина] ;;
+alahovschina => nrel_main_en_idtf:
+[Alahovschina] ;;
+
+nrel_population <- sc_node_norole_relation;;
+nrel_population => nrel_main_ru_idtf:
+[население*] ;;
+nrel_population => nrel_main_en_idtf:
+[population*] ;;
+
+nrel_locality <- sc_node_norole_relation;;
+nrel_locality => nrel_main_ru_idtf:
+[населенный пункт*] ;;
+nrel_locality => nrel_main_en_idtf:
+[locality*] ;;
+
+nrel_state <- sc_node_norole_relation;;
+nrel_state => nrel_main_ru_idtf:
+[состояние*] ;;
+nrel_state => nrel_main_en_idtf:
+[state*] ;;
+
+nrel_politic <- sc_node_norole_relation;;
+nrel_politic => nrel_main_ru_idtf:
+[политико_административное значение*] ;;
+nrel_politic => nrel_main_en_idtf:
+[political-administrative value*] ;;
+
+nrel_region <- sc_node_norole_relation;;
+nrel_region => nrel_main_ru_idtf:
+[область*] ;;
+nrel_region => nrel_main_en_idtf:
+[region*] ;;
+
+nrel_district <- sc_node_norole_relation;;
+nrel_district => nrel_main_ru_idtf:
+[район*] ;;
+nrel_district => nrel_main_en_idtf:
+[district*] ;;
+
+alahovschina=> nrel_population: [6] ;;
+alahovschina=> nrel_region: [Гродненская область] ;; 
+alahovschina=> nrel_district: [Ошмянский район] ;;
+alahovschina=> nrel_locality: [хутор Алаховщина];;
+alahovschina=> nrel_state: [жилой] ;;
+alahovschina=> nrel_politic: [не имеет политико_административного значения] ;;

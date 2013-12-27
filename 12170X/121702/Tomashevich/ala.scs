@@ -1,0 +1,47 @@
+ala => nrel_main_ru_idtf:
+[Ала] ;;
+ala => nrel_main_en_idtf:
+[Ala] ;;
+
+nrel_population <- sc_node_norole_relation;;
+nrel_population => nrel_main_ru_idtf:
+[население*] ;;
+nrel_population => nrel_main_en_idtf:
+[population*] ;;
+
+nrel_region <- sc_node_norole_relation;;
+nrel_region => nrel_main_ru_idtf:
+[область*] ;;
+nrel_region => nrel_main_en_idtf:
+[region*] ;;
+
+nrel_district <- sc_node_norole_relation;;
+nrel_district => nrel_main_ru_idtf:
+[район*] ;;
+nrel_district => nrel_main_en_idtf:
+[district*] ;;
+
+nrel_locality <- sc_node_norole_relation;;
+nrel_locality => nrel_main_ru_idtf:
+[населенный пункт*] ;;
+nrel_locality => nrel_main_en_idtf:
+[locality*] ;;
+
+nrel_state <- sc_node_norole_relation;;
+nrel_state => nrel_main_ru_idtf:
+[состояние*] ;;
+nrel_state => nrel_main_en_idtf:
+[state*] ;;
+
+nrel_politic <- sc_node_norole_relation;;
+nrel_politic => nrel_main_ru_idtf:
+[политико_административное значение*] ;;
+nrel_politic => nrel_main_en_idtf:
+[political-administrative value*] ;;
+
+ala=> nrel_population: [22];;
+ala=> nrel_region: [Могилевская область];; 
+ala=> nrel_district: [Кировский район];;
+ala=> nrel_locality: [деревня Ала];;
+ala=> nrel_state: [жилой] ;;
+ala=> nrel_politic: [не имеет политико_администраивного значения] ;;
