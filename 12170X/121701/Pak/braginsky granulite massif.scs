@@ -1,0 +1,26 @@
+braginsky_granulite_massif => nrel_main_ru_idtf:
+[Брагинский гранулитовый массив];;
+braginsky_granulite_massif => nrel_main_en_idtf:
+[Braginsky granulite massif];;
+
+nrel_lenght <- sc_node_norole_relation;;
+nrel_lenght => nrel_main_idtf:
+[длина*] (* <- lang_ru;; *);;
+nrel_lenght => nrel_main_idtf:
+[lenght*] (* <- lang_en;; *);;
+
+nrel_width <- sc_node_norole_relation;;
+nrel_width => nrel_main_idtf:
+[ширина*] (* <- lang_ru;; *);;
+nrel_lenght => nrel_main_idtf:
+[width*] (* <- lang_en;; *);;
+
+braginsky_granulite_massif => nrel_lenght: 
+[ 150];;
+braginsky_granulite_massif => nrel_width:
+[ 200];;
+
+braginsky_granulite_massif => nrel_defenition: [ Занимает юго-восточную часть Беларуси, продолжаясь на смежных территориях Украины и России.  ];;
+
+braginsky_granulite_massif => nrel_textual_explanation: 
+[ БРАГИНСКИЙ ГРАНУЛИТОВЫЙ МАССЙВ. Занимает юго-вост. часть Беларуси, продолжаясь на смежных терр. Украины и России. Ограничен круп¬ными глубинными разломами: субмеридиональным Брагинским на 3 (продолжение к-рого находится в пределах шовной Голова невской зоны Украинского шита) и Суражским на С и С-В (продолжающимся на Украинском щите под названием Сущано-Пержанская зона разломов). В Беларуси на пл. 150 х 200 км массив сложен однородными по составу гранат-, силлиманит- и кордиерит-биотитовыми и биотитовыми гнейсами В результате интенсивной гранитизации гнейсовых толщ они практически не отличаются по геофиз. характеристикам от тел гранитоидного состава. присутствующих в пределах массива.];;

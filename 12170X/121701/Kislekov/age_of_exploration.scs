@@ -1,0 +1,32 @@
+age_of_exploration  => nrel_main_ru_idtf:
+[Век геологический] ;;
+age_of_Exploration => nrel_main_en_idtf:
+[age of Exploration] ;;
+
+nrel_partition_by_time_period<- quasybinary_relation;;
+nrel_partition_by_time_period => nrel_main_ru_idtf:
+[разбиение по периоду времени*];;
+
+age_of_exploration<= nrel_partition_by_time_period:
+{
+paleozoic(* => nrel_main_ru_idtf: [палеозойский];; => nrel_main_en_idtf: [paleozoic];; *);
+mesozoic (* => nrel_main_ru_idtf: [мезозойский];; => nrel_main_en_idtf: [mesozoic];; *);
+cainozoic(* => nrel_main_ru_idtf: [кайнозойский];; => nrel_main_en_idtf: [cainozoic];; *)
+};;
+
+
+nrel_partition_by_tiers<- quasybinary_relation;;
+nrel_partition_by_tiers => nrel_main_ru_idtf:
+[разбиение по ярусам*];;
+
+age_of_exploration<= nrel_partition_by_tiers:
+{
+eifelian(* => nrel_main_ru_idtf: [эйфельский];; => nrel_main_en_idtf: [eifelian];; *);
+cenomanian(* => nrel_main_ru_idtf: [сеноманский];; => nrel_main_en_idtf: [cenomanian];; *)
+};;
+
+
+age_of_exploration => nrel_defenition: [ В исторической геологии единица геол. летоисчисления. ];;
+
+age_of_exploration => nrel_textual_explanation: 
+[ Век геологический, в исторической геологии единица геол. летоисчисления,соответствующая отрезку геол. времени, в течение к-рого сформировались отложения яруса геологического. Является составной частью эпохи геологической. Делится на фазы. Термин предложен в 1873-74 французским исследователем Э.Реневье. Именуется по названию соответствующего яруса (напр,,эйфельский В.г. среднедевонской эпохи, сеноманский В.г. позднемеловой эпохи). По радиологическим данным установлена продолжительность В.г. в палеозое - около 8-10 млн. л., мезозое - 5-6 млн. л., кайнозое - 2-4 млн. лет.В разные В.г. на терр. Беларуси формировались различные по мощности отложения(напр., от 1-20 м в ордовике до 1,5-2 тыс. м в верхнем девоне). Отложения отдельных В.г.(напр.,позднего кембрия,ранней юры) на терр. Беларуси отсутствуют. ];;
